@@ -12,3 +12,5 @@ Feature: One
     And I re-enter password in signup form
     And I select SIGN UP button
     Then dashboard is opened
+
+
