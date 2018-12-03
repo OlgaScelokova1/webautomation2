@@ -13,9 +13,4 @@ Feature: One
     And I select SIGN UP button
     Then dashboard is opened
 
-  Scenario: Unsuccessful sign-up
-    Given I have opened landing page
-    When I select My Account menu
-    And I select Sign up menu
-    And I enter valid first name in signup form
-    Then dashboard is opened
+
