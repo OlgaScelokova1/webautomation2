@@ -8,31 +8,31 @@ import static com.codeborne.selenide.Selenide.page;
 
 public class SignupPageObject {
     private SelenideElement getFirstNameField() {
-        return $("test");
+        return $("input[name='firstname']");
     }
 
     private SelenideElement getLastNameField() {
-        return $("test");
+        return $("input[name='lastname']");
     }
 
     private SelenideElement getMobileNumberField() {
-        return $("test");
+        return $("input[name='phone']");
     }
 
     private SelenideElement getEmailield() {
-        return $("test");
+        return $("input[name='email']");
     }
 
     private SelenideElement getPasswordField() {
-        return $("test");
+        return $("input[name='password']");
     }
 
     private SelenideElement getCinfirmPasswordField() {
-        return $("test");
+        return $("input[name='confirmpassword']");
     }
 
     private SelenideElement getSignUpButton() {
-        return $("test");
+        return $("div.form-group> button");
     }
 
     public void enterFirstName(String firstname) { getFirstNameField().sendKeys(firstname); }

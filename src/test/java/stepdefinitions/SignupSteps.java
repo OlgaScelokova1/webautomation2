@@ -1,6 +1,7 @@
 package stepdefinitions;
 
 
+import General.TestContext;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -12,71 +13,73 @@ import General.User;
 import static utils.RandomGenerator.*;
 
 public class SignupSteps {
-    NavigationPageObject homepage = new NavigationPageObject();
-    SignupPageObject signuppage = new SignupPageObject();
-    private User user = new User();
+    private TestContext test;
+    public SignupSteps(TestContext testContext){
+        this.test = testContext;
+    }
+
 
     @Given("^I have opened landing page$")
-    public void iHaveOpenedLandingPage() throws Throwable {
+    public void iHaveOpenedLandingPage() {
         System.out.println("OPEN HOMEPAGE");
     }
 
     @When("^I select My Account menu$")
-    public void iSelectMyAccountMenu() throws Throwable {
+    public void iSelectMyAccountMenu() {
         //System.out.println("OPEN HOMEPAGE");
-        homepage.selectMyAccountButton();
+        test.getNavigation().selectMyAccountButton();
     }
 
     @And("^I select Sign up menu$")
-    public void iSelectSignUpMenu() throws Throwable {
+    public void iSelectSignUpMenu() {
         //System.out.println("OPEN HOMEPAGE");
-        homepage.selectSignUpButton();
+        test.getNavigation().selectSignUpButton();
     }
 
     @And("^I enter valid first name in signup form$")
-    public void iEnterValidFirstNameInSignupForm() throws Throwable {
+    public void iEnterValidFirstNameInSignupForm() {
         //System.out.println("OPEN HOMEPAGE");
-        signuppage.enterFirstName(user.getFirstName());
+        test.getSignuupPage().enterFirstName(test.getUser().getFirstName());
     }
 
     @And("^I enter valid last name in signup form$")
-    public void iEnterValidLastNameInSignupForm() throws Throwable {
+    public void iEnterValidLastNameInSignupForm() {
         //System.out.println("OPEN HOMEPAGE");
-        signuppage.enterLastName(user.getLastName());
+        test.getSignuupPage().enterLastName(test.getUser().getLastName());
     }
 
     @And("^I enter valid mobile number in signup form$")
-    public void iEnterValidMobileNumberInSignupForm() throws Throwable {
+    public void iEnterValidMobileNumberInSignupForm() {
         //System.out.println("OPEN HOMEPAGE");
-        signuppage.enterMobileNumber(user.getMobileNumber());
+        test.getSignuupPage().enterMobileNumber(test.getUser().getMobileNumber());
     }
 
     @And("^I enter valid email address in signup form$")
-    public void iEnterValidEmailAddressInSignupForm() throws Throwable {
+    public void iEnterValidEmailAddressInSignupForm() {
         //System.out.println("OPEN HOMEPAGE");
-        signuppage.enterEmail(user.getEmailAddress());
+        test.getSignuupPage().enterEmail(test.getUser().getEmailAddress());
     }
 
     @And("^I enter password in signup form$")
-    public void iEnterPasswordInSignupForm() throws Throwable {
+    public void iEnterPasswordInSignupForm() {
         //System.out.println("OPEN HOMEPAGE");
-        signuppage.enterPassword(user.getPassword());
+        test.getSignuupPage().enterPassword(test.getUser().getPassword());
     }
 
     @And("^I re-enter password in signup form$")
-    public void iReEnterPasswordInSignupForm() throws Throwable {
+    public void iReEnterPasswordInSignupForm() {
         //System.out.println("OPEN HOMEPAGE");
-        signuppage.enterConfirmationPassword(user.getPassword());
+        test.getSignuupPage().enterConfirmationPassword(test.getUser().getPassword());
     }
 
     @And("^I select SIGN UP button$")
-    public void iSelectSIGNUPButton() throws Throwable {
+    public void iSelectSIGNUPButton() {
         //System.out.println("OPEN HOMEPAGE");
-        signuppage.selectSignUpButton();
+        test.getSignuupPage().selectSignUpButton();
     }
 
     @Then("^dashboard is opened$")
-    public void dashboardIsOpened() throws Throwable {
+    public void dashboardIsOpened() {
         System.out.println("OPEN HOMEPAGE");
     }
 }
