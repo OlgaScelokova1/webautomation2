@@ -4,6 +4,7 @@ Feature: One
     Given I have opened landing page
     When I select My Account menu
     And I select Sign up menu
+    And Sign Up page is opened
     And I enter valid first name in signup form
     And I enter valid last name in signup form
     And I enter valid mobile number in signup form

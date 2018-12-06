@@ -34,6 +34,9 @@ public class SignupPageObject {
     private SelenideElement getSignUpButton() {
         return $("div.form-group> button");
     }
+    private SelenideElement getSignUpForm() {
+        return $(".panel-default");
+    }
 
     public void enterFirstName(String firstname) { getFirstNameField().sendKeys(firstname); }
 
@@ -50,5 +53,9 @@ public class SignupPageObject {
     public AccountPageObject selectSignUpButton(){ // izmantot, ka pēc nospiešanas notiek pāreja uz citu lapu
         getSignUpButton().click();
         return page(AccountPageObject.class);
+    }
+
+    public boolean isSignUpFormVisible(){
+        return getSignUpForm().isDisplayed();
     }
 }

@@ -11,8 +11,6 @@ public class RandomGenerator {
         return "+371" + RandomStringUtils.random(8, false, true);
     }
     public static String generateRandomEmail(){
-        return RandomStringUtils.random(7, true, false) +
-                "." + RandomStringUtils.random(7, true, false)+
-                "@" + RandomStringUtils.random(7, true, false);
+        return RandomStringUtils.random(7, true, false) + "@gmail.com";
     }
 }

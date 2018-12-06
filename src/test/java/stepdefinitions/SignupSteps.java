@@ -2,15 +2,13 @@ package stepdefinitions;
 
 
 import General.TestContext;
-import cucumber.api.PendingException;
+
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import pages.header.NavigationPageObject;
-import pages.signuppage.SignupPageObject;
-import General.User;
-import static utils.RandomGenerator.*;
+
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class SignupSteps {
     private TestContext test;
@@ -21,7 +19,9 @@ public class SignupSteps {
 
     @Given("^I have opened landing page$")
     public void iHaveOpenedLandingPage() {
-        System.out.println("OPEN HOMEPAGE");
+        test.getNavigation().waitUntilpageLoadingIsFinished();
+        assertThat(test.getNavigation().isMyAccountButtonVisible()).isTrue();
+        assertThat(test.getNavigation().isLogovisible()).isTrue();
     }
 
     @When("^I select My Account menu$")
@@ -80,6 +80,15 @@ public class SignupSteps {
 
     @Then("^dashboard is opened$")
     public void dashboardIsOpened() {
-        System.out.println("OPEN HOMEPAGE");
+        assertThat(test.getAccountPage().getGreetingsText()).isEqualTo("Hi, " + test.getUser().getFirstName() + " " + test.getUser().getLastName());
+        test.getNavigation().waitUntilpageLoadingIsFinished();
+        test.getAccountPage().waitUntilLogoLoadingIsFinished();
+        assertThat(test.getAccountPage().isUserLogoVisible()).isTrue();
+    }
+
+    @And("^Sign Up page is opened$")
+    public void signUpPageIsOpened() {
+        test.getNavigation().waitUntilpageLoadingIsFinished();
+        assertThat(test.getSignuupPage().isSignUpFormVisible()).isTrue();
     }
 }
