@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Olgas-MacBook-Pro.local",
+    "children" : [ {
+      "name" : "81059@Olgas-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "Successful sign-up",
+        "uid" : "8bbdbac4fcf84347",
+        "parentUid" : "7915168401bb2956c1c6f63779db4f7d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1544099613640,
+          "stop" : 1544099629744,
+          "duration" : 16104
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7915168401bb2956c1c6f63779db4f7d"
+    } ],
+    "uid" : "ec84afb7bfbc596b95c9072ac3b5dbfe"
+  } ]
+}

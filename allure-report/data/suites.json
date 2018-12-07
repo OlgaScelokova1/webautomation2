@@ -1,0 +1,21 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "One",
+    "children" : [ {
+      "name" : "Successful sign-up",
+      "uid" : "8bbdbac4fcf84347",
+      "parentUid" : "6aa6e5db402dc570d9bc855e9b6ef5c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544099613640,
+        "stop" : 1544099629744,
+        "duration" : 16104
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6aa6e5db402dc570d9bc855e9b6ef5c4"
+  } ]
+}
