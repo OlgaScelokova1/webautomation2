@@ -15,7 +15,7 @@ public class Hooks {
     }
 
     @Before
-    public void openHomePage() { open("https://www.phptravels.net/");}
+    public void openHomePage() { open("https://www.testdevlab.com");}
     @After
     public void closeBrowser(){
         close();

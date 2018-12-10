@@ -13,14 +13,16 @@ public class User {
     private String lastName;
     private String mobileNumber;
     private String emailAddress;
-    private String password;
+    private String company;
+    private String message;
 
     public User(){
         this.firstName = generateRandomString();
         this.lastName = generateRandomString();
         this.mobileNumber = generateRandomPhoneNumber();
         this.emailAddress = generateRandomEmail();
-        this.password = generateRandomString();
+        this.company = generateRandomString();
+        this.message = generateRandomString();
     }
 
     public User(String firstname, String lastname){
