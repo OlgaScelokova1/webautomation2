@@ -117,6 +117,10 @@ public class LandingPageObject {
         return $((".filled-cta-btn.disabled"));
     }
 
+    private SelenideElement getSelectedButton() {
+        return $((".filled-cta-btn"));
+    }
+
     public void selectCaptchaField2() {
         WebDriver driver=getWebDriver();
         driver.get("https://www.testdevlab.com/contact-us");
@@ -134,9 +138,10 @@ public class LandingPageObject {
 
     }
 
-    public void aaa(){
+    public void sendContactForm(){
         setAttributeValue(getSendButton(),"filled-cta-btn no-select");
-        getWebDriver().findElement(By.className("filled-cta-btn")).click();
+        getSelectedButton().waitUntil(Condition.visible, 5000);
+        getSelectedButton().click();
 
     }
 

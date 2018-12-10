@@ -3,18 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="02d50b87-9765-4f66-b729-f949c71c08f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/General/TestContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/General/TestContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/account/AccountPageObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/header/NavigationPageObject.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/landing/LandingPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/landing/LandingPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/login/LoginPageObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/signuppage/SignupPageObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/signup.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/contactform.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/0c1246a4-9d69-4413-b34d-880a9663f8d9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2018-12-10T14-54-34_399.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/SignupSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/SignupSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/contactform.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/contactform.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/833e2afd-4a8a-4cd7-92cc-b645ee120ef6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2018-12-10T15-03-50_431.dumpstream" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-testrunner.TestRunner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testrunner.TestRunner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/signup.feature" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,15 +36,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="feature" value="769" />
-          <entry key="java" value="4294" />
+          <entry key="feature" value="797" />
+          <entry key="java" value="4353" />
           <entry key="xml" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="748" />
-          <entry key="JAVA" value="4294" />
+          <entry key="Cucumber" value="776" />
+          <entry key="JAVA" value="4353" />
           <entry key="PLAIN_TEXT" value="31" />
           <entry key="XML" value="16" />
         </counts>
@@ -78,11 +73,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/contactform.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="66" selection-start-column="66" selection-end-column="66" />
+            <state relative-caret-position="225">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -90,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/SignupSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="192" column="25" lean-forward="true" selection-start-line="192" selection-start-column="25" selection-end-line="192" selection-end-column="25" />
+            <state relative-caret-position="136">
+              <caret line="194" selection-start-line="194" selection-end-line="194" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/landing/LandingPageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="92" column="59" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="59" />
+            <state relative-caret-position="197">
+              <caret line="140" column="31" selection-start-line="140" selection-start-column="31" selection-end-line="140" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#202#203#0" expanded="true" />
@@ -150,6 +145,8 @@
                 <element signature="e#3524#3525#0" expanded="true" />
                 <element signature="e#3687#3688#0" expanded="true" />
                 <element signature="e#3736#3737#0" expanded="true" />
+                <element signature="e#3568#3569#0" expanded="true" />
+                <element signature="e#3622#3623#0" expanded="true" />
                 <element signature="e#4362#4363#0" expanded="true" />
                 <element signature="e#4402#4403#0" expanded="true" />
                 <element signature="e#4448#4449#0" expanded="true" />
@@ -159,7 +156,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/General/TestContext.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -208,10 +205,11 @@
         <option value="$PROJECT_DIR$/src/main/java/pages/header/NavigationPageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" />
         <option value="$PROJECT_DIR$/src/main/java/General/User.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/SignupSteps.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/signup.feature" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/landing/LandingPageObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/General/TestContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/landing/LandingPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/SignupSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/contactform.feature" />
       </list>
     </option>
   </component>
@@ -312,7 +310,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="add_unversioned_files" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544446955302" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544447804336" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -475,13 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/contactform.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="66" selection-start-column="66" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/signuppage/SignupPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -502,20 +493,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/SignupSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/General/TestContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="192" column="25" lean-forward="true" selection-start-line="192" selection-start-column="25" selection-end-line="192" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/landing/LandingPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="92" column="59" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="59" />
+        <state relative-caret-position="197">
+          <caret line="140" column="31" selection-start-line="140" selection-start-column="31" selection-end-line="140" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#202#203#0" expanded="true" />
@@ -550,6 +538,8 @@
             <element signature="e#3524#3525#0" expanded="true" />
             <element signature="e#3687#3688#0" expanded="true" />
             <element signature="e#3736#3737#0" expanded="true" />
+            <element signature="e#3568#3569#0" expanded="true" />
+            <element signature="e#3622#3623#0" expanded="true" />
             <element signature="e#4362#4363#0" expanded="true" />
             <element signature="e#4402#4403#0" expanded="true" />
             <element signature="e#4448#4449#0" expanded="true" />
@@ -558,10 +548,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/General/TestContext.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/SignupSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="136">
+          <caret line="194" selection-start-line="194" selection-end-line="194" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/contactform.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
         </state>
       </provider>
     </entry>

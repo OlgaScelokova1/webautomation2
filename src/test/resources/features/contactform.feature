@@ -13,5 +13,5 @@ Feature: This feature is about successfull sending of contact form
       And I enter company name in contact form
       And I select services topic
       And I enter message in contact form
-      And I select I'm not a robot option
+      And I send contact message
     Then form is sent
