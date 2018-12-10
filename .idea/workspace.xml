@@ -4,23 +4,17 @@
     <list default="true" id="02d50b87-9765-4f66-b729-f949c71c08f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/General/TestContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/General/TestContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/General/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/General/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/header/NavigationPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/header/NavigationPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/SignupSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/SignupSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/signup.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/signup.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/dcbf9e40-cc82-4919-a601-765dee372b7b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/General/TestContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/General/TestContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/General/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/General/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/header/NavigationPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/header/NavigationPageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2018-12-07T14-37-44_819.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/account/AccountPageObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/header/NavigationPageObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/landing/LandingPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/landing/LandingPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/login/LoginPageObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/signuppage/SignupPageObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/signup.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/contactform.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/0c1246a4-9d69-4413-b34d-880a9663f8d9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2018-12-10T14-54-34_399.dumpstream" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-testrunner.TestRunner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testrunner.TestRunner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/signup.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/signup.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Hooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/SignupSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/SignupSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/signup.feature" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,15 +41,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="feature" value="701" />
-          <entry key="java" value="4222" />
+          <entry key="feature" value="769" />
+          <entry key="java" value="4294" />
           <entry key="xml" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="680" />
-          <entry key="JAVA" value="4222" />
+          <entry key="Cucumber" value="748" />
+          <entry key="JAVA" value="4294" />
           <entry key="PLAIN_TEXT" value="31" />
           <entry key="XML" value="16" />
         </counts>
@@ -85,10 +79,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/signup.feature">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/contactform.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+            <state>
+              <caret column="66" selection-start-column="66" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -96,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/SignupSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="197" column="12" lean-forward="true" selection-start-line="197" selection-start-column="12" selection-end-line="197" selection-end-column="36" />
+            <state relative-caret-position="179">
+              <caret line="192" column="25" lean-forward="true" selection-start-line="192" selection-start-column="25" selection-end-line="192" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/landing/LandingPageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="141" column="36" selection-start-line="141" selection-start-column="36" selection-end-line="141" selection-end-column="36" />
+            <state relative-caret-position="231">
+              <caret line="92" column="59" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#202#203#0" expanded="true" />
@@ -158,41 +152,18 @@
                 <element signature="e#3736#3737#0" expanded="true" />
                 <element signature="e#4362#4363#0" expanded="true" />
                 <element signature="e#4402#4403#0" expanded="true" />
+                <element signature="e#4448#4449#0" expanded="true" />
+                <element signature="e#4513#4514#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/General/TestContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/signuppage/SignupPageObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-14">
-              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#642#643#0" expanded="true" />
-                <element signature="e#692#693#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
-                <element signature="e#856#857#0" expanded="true" />
-                <element signature="e#905#906#0" expanded="true" />
-                <element signature="e#955#956#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -236,11 +207,11 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/pages/header/NavigationPageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/General/TestContext.java" />
         <option value="$PROJECT_DIR$/src/main/java/General/User.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/signup.feature" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/SignupSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/signup.feature" />
         <option value="$PROJECT_DIR$/src/main/java/pages/landing/LandingPageObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/General/TestContext.java" />
       </list>
     </option>
   </component>
@@ -251,9 +222,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-19" />
-    <option name="y" value="53" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="9" />
+    <option name="y" value="28" />
     <option name="width" value="1273" />
     <option name="height" value="729" />
   </component>
@@ -300,23 +271,6 @@
               <item name="webautomation2" type="b2602c69:ProjectViewProjectNode" />
               <item name="webautomation2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webautomation2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webautomation2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="signuppage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webautomation2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webautomation2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -358,7 +312,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="add_unversioned_files" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544446419739" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544446955302" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -398,8 +352,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="9" y="28" width="1273" height="729" extended-state="6" />
-    <editor active="true" />
+    <frame x="9" y="28" width="1273" height="729" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27944762" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -512,13 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/signup.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/General/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
@@ -529,20 +475,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/SignupSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/contactform.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="197" column="12" lean-forward="true" selection-start-line="197" selection-start-column="12" selection-end-line="197" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="66" selection-start-column="66" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/signuppage/SignupPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        <state relative-caret-position="450">
+          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#502#503#0" expanded="true" />
@@ -559,10 +502,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/General/TestContext.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/SignupSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+        <state relative-caret-position="179">
+          <caret line="192" column="25" lean-forward="true" selection-start-line="192" selection-start-column="25" selection-end-line="192" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -571,8 +514,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/landing/LandingPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="141" column="36" selection-start-line="141" selection-start-column="36" selection-end-line="141" selection-end-column="36" />
+        <state relative-caret-position="231">
+          <caret line="92" column="59" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#202#203#0" expanded="true" />
@@ -609,7 +552,16 @@
             <element signature="e#3736#3737#0" expanded="true" />
             <element signature="e#4362#4363#0" expanded="true" />
             <element signature="e#4402#4403#0" expanded="true" />
+            <element signature="e#4448#4449#0" expanded="true" />
+            <element signature="e#4513#4514#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/General/TestContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>

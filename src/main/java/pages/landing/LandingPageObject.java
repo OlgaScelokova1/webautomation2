@@ -88,9 +88,9 @@ public class LandingPageObject {
     }
 
     public void selectServicesOption() {
-        getTopicField().waitUntil(Condition.visible, 5000);
+        getTopicField().waitUntil(Condition.visible, 10000);
         getTopicField().click();
-        getServicesOption().waitUntil(Condition.visible, 5000);
+        getServicesOption().waitUntil(Condition.visible, 10000);
         getServicesOption().click(); }
 
     private SelenideElement getMessageField() {
